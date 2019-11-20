@@ -124,6 +124,7 @@ func (device *Device) IpcSetOperation(socket *bufio.Reader) *IPCError {
 		if line == "" {
 			return nil
 		}
+		fmt.Println(line+"sd")
 		parts := strings.Split(line, "=")
 		if len(parts) != 2 {
 			return &IPCError{ipc.IpcErrorProtocol}
@@ -421,10 +422,11 @@ func (device *Device) IpcHandle(socket net.Conn) {
 	switch op {
 	case "set=1\n":
 		status = device.IpcSetOperation(buffered.Reader)
+		fmt.Println("reader set edildi")
 
 	case "get=1\n":
 		status = device.IpcGetOperation(buffered.Writer)
-
+		fmt.Println("writer set edildi")
 	default:
 		device.log.Error.Println("Invalid UAPI operation:", op)
 		return

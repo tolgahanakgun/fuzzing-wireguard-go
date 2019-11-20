@@ -1,0 +1,4 @@
+INFO: (wg0) 2019/11/20 02:12:23 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/20 02:12:23 Debug log enabled
+ERROR: (wg0) 2019/11/20 02:12:23 Failed to create TUN device: device or resource busy
+exit status 1

@@ -1,0 +1,5 @@
+panic: err in hemen üstünde
+golang.zx2c4.com/wireguard.wg0_init
+golang.zx2c4.com/wireguard.Fuzz
+go-fuzz-dep.Main
+main.main

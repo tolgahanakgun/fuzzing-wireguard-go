@@ -1,0 +1,4 @@
+INFO: (wg0) 2019/11/19 22:53:17 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/19 22:53:17 Debug log enabled
+ERROR: (wg0) 2019/11/19 22:53:17 Failed to create TUN device: operation not permitted
+exit status 1

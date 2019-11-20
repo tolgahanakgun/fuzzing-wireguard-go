@@ -1,0 +1,9 @@
+INFO: (wg0) 2019/11/20 01:57:02 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/20 01:57:02 Debug log enabled
+DEBUG: (wg0) 2019/11/20 01:57:02 Routine: event worker - started
+INFO: (wg0) 2019/11/20 01:57:02 Interface set up
+DEBUG: (wg0) 2019/11/20 01:57:02 Routine: receive incoming IPv6 - started
+INFO: (wg0) 2019/11/20 01:57:02 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/20 01:57:02 Debug log enabled
+ERROR: (wg0) 2019/11/20 01:57:02 Failed to create TUN device: device or resource busy
+exit status 1

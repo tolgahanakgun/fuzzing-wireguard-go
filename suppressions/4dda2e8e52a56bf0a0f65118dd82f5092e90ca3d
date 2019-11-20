@@ -1,0 +1,6 @@
+INFO: (wg0) 2019/11/19 23:00:00 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/19 23:00:00 Debug log enabled
+INFO: (wg0) 2019/11/19 23:00:01 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/19 23:00:01 Debug log enabled
+ERROR: (wg0) 2019/11/19 23:00:01 Failed to create TUN device: too many open files
+exit status 1

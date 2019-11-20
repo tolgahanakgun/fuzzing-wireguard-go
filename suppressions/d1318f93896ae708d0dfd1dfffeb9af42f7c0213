@@ -1,0 +1,5 @@
+panic: kac oldu
+golang.zx2c4.com/wireguard.init_wg0
+golang.zx2c4.com/wireguard.Fuzz
+go-fuzz-dep.Main
+main.main

@@ -1,0 +1,4 @@
+panic: runtime error: invalid memory address or nil pointer dereference
+golang.zx2c4.com/wireguard.Fuzz
+go-fuzz-dep.Main
+main.main

@@ -6,8 +6,8 @@
 package device
 
 import (
-	"io"
-	"io/ioutil"
+	//"io"
+	//"io/ioutil"
 	"log"
 	"os"
 )
@@ -26,10 +26,12 @@ type Logger struct {
 }
 
 func NewLogger(level int, prepend string) *Logger {
-	output := os.Stdout
+//	output := os.Stdout
 	logger := new(Logger)
 
-	logErr, logInfo, logDebug := func() (io.Writer, io.Writer, io.Writer) {
+	f, _ := os.OpenFile("text.test", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+
+	logErr, logInfo, logDebug := f,f,f /*func() (io.Writer, io.Writer, io.Writer) {
 		if level >= LogLevelDebug {
 			return output, output, output
 		}
@@ -41,6 +43,7 @@ func NewLogger(level int, prepend string) *Logger {
 		}
 		return ioutil.Discard, ioutil.Discard, ioutil.Discard
 	}()
+*/
 
 	logger.Debug = log.New(logDebug,
 		"DEBUG: "+prepend,

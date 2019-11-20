@@ -1,0 +1,4 @@
+panic: sdfsdfsd
+golang.zx2c4.com/wireguard.Fuzz
+go-fuzz-dep.Main
+main.main

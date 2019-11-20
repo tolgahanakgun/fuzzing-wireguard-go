@@ -1,0 +1,26 @@
+INFO: (wg0) 2019/11/20 01:56:47 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/20 01:56:47 Debug log enabled
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: event worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: encryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: decryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: handshake worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: encryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: decryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: handshake worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: encryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: decryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: handshake worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: encryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: decryption worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: handshake worker - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: TUN reader - started
+INFO: (wg0) 2019/11/20 01:56:47 Device started
+INFO: (wg0) 2019/11/20 01:56:47 UAPI listener started
+INFO: (wg0) 2019/11/20 01:56:47 Interface set up
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: receive incoming IPv6 - started
+DEBUG: (wg0) 2019/11/20 01:56:47 Routine: receive incoming IPv4 - started
+DEBUG: (wg0) 2019/11/20 01:56:47 UDP bind has been updated
+INFO: (wg0) 2019/11/20 01:56:47 Starting wireguard-go version 0.0.20191012-11-g4cdf805-dirty
+DEBUG: (wg0) 2019/11/20 01:56:47 Debug log enabled
+ERROR: (wg0) 2019/11/20 01:56:47 Failed to create TUN device: device or resource busy
+exit status 1
